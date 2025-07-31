@@ -6,3 +6,5 @@ nltk.download('stopwords')
 lista_stopwords = stopwords.words('spanish')
 #imprimir las stopwords
 print(lista_stopwords)
+nltk.data.path.append('C:\Users\Paola\AppData\Roaming\nltk_data')
+
